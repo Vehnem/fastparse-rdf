@@ -1,8 +1,8 @@
 package com.github.vehnem.rdf.fastparse.grammar
 
 import com.github.vehnem.rdf.fastparse.model.{RDFModel => MODEL}
-import fastparse._
 import fastparse.NoWhitespace._
+import fastparse._
 
 /**
  * @author ${user.name}

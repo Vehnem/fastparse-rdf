@@ -1,7 +1,7 @@
 package com.github.vehnem
 
-import fastparse.{Parsed, parse}
 import com.github.vehnem.rdf.fastparse.grammar.NTripleGrammar.ntriples
+import fastparse.{Parsed, parse}
 
 /**
   * @author ${user.name}

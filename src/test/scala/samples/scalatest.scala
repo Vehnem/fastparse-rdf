@@ -25,9 +25,10 @@ http://www.scalatest.org/
 One way to use ScalaTest is to help make JUnit or TestNG tests more
 clear and concise. Here's an example:
 */
-import scala.collection._
-import org.scalatest.Assertions
 import org.junit.Test
+import org.scalatest.Assertions
+
+import scala.collection._
 
 class StackSuite extends Assertions {
 
@@ -50,11 +51,9 @@ class StackSuite extends Assertions {
 /*
 Here's an example of a FunSuite with Matchers mixed in:
 */
-import org.scalatest.FunSuite
-import org.scalatest.Matchers
-
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
+import org.scalatest.{FunSuite, Matchers}
 @RunWith(classOf[JUnitRunner])
 class ListSuite extends FunSuite with Matchers {
 
