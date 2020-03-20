@@ -1,0 +1,5 @@
+.metals/
+.bloop/
+.idea/
+target/
+fastparse-rdf.iml
